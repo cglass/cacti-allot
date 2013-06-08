@@ -1,0 +1,39 @@
+<sensors>
+<name>Sensors</name>
+<description>still figuring this out</description>
+<oid_index>.1.3.6.1.4.1.2603.5.5.18.1.2</oid_index>
+<oid_index_parse>OID/REGEXP:.*([0-9]{1,5}\.[0-9]{1,5})$</oid_index_parse>
+<index_order_type>alphabetic</index_order_type>
+<fields>
+	<sensorIndex>
+		<name>Index</name>
+		<method>walk</method>
+		<source>OID/REGEXP:.*([0-9]{1,5}\.[0-9]{1,5})$</source>
+		<direction>input</direction>
+		<oid>.1.3.6.1.4.1.2603.5.5.18.1.2</oid>
+	</sensorIndex>
+
+	<sensorType>
+		<name>Sensor Type</name>
+		<method>walk</method>
+		<source>value</source>
+		<direction>input</direction>
+		<oid>.1.3.6.1.4.1.2603.5.5.18.1.2</oid>
+	</sensorType>
+	<sensorValue>
+		<name>Sensor Value</name>
+		<method>walk</method>
+		<source>value</source>
+		<direction>input</direction>
+		<oid>.1.3.6.1.4.1.2603.5.5.18.1.3</oid>
+	</sensorValue>
+	<sensorValueOut>
+		<name>Sensor Value</name>
+		<method>walk</method>
+		<source>value</source>
+		<direction>output</direction>
+		<oid>.1.3.6.1.4.1.2603.5.5.18.1.3</oid>
+	</sensorValueOut>
+
+</fields>
+</sensors>
