@@ -35,4 +35,4 @@ In the Cacti GUI go to console -> import templates -> import template from local
 
 Import cacti_data_query_netenforcer_-_sensors.xml and cacti_data_query_netenforcer_-_sw.xml in cacti-dev/sensors-data-query
 
-**Go select devices in Cacti and under 'Associated data queries' select 'NetEnforcer - Sensors', then click 'Create graphs for this host'**
+Go select devices in Cacti and under 'Associated data queries' select 'NetEnforcer - Sensors', then click 'Create graphs for this host'**
