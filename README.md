@@ -23,12 +23,15 @@ Instructions
 **Test whether the system can resolve OIDs**
 
     snmptranslate -IR -On ALLOT-MIB::alSensorId
+    .1.3.6.1.4.1.2603.5.5.18.1.1
 
-**From this repo copy allot_sensors.xml and allot_sw to Cacti snmp_queries directory**
+**Copy allot_sensors.xml and allot_sw to Cacti snmp_queries directory**
 
-    sudo cp allot_sensors.xml allot_sw /var/www/cacti/resource/snmp_queries
+    sudo cp allot_sensors.xml allot_sw.xml /var/www/cacti/resource/snmp_queries
 
 **Import Data Queries in Cacti GUI**
 
-In the GUI go to console -> import templates -> import template from local file 
+In the Cacti GUI go to console -> import templates -> import template from local file 
 Import cacti_data_query_netenforcer_-_sensors.xml and cacti_data_query_netenforcer_-_sw.xml in cacti-dev/sensors-data-query
+
+**Go select devices in Cacti and under 'Associated data queries' select 'NetEnforcer - Sensors', then click 'Create graphs for this host'**
