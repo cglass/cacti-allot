@@ -7,10 +7,10 @@ Instructions
 ------------
 
 **Install Allot MIBs so that Cacti can resolve OIDs**
-sudo mkdir /usr/share/snmp/mibs && sudo cp ALLOT-* /usr/share/snmp/mibs/
+  sudo mkdir /usr/share/snmp/mibs && sudo cp ALLOT-* /usr/share/snmp/mibs/
 
 **Add the following line to /etc/snmp/snmp.conf**
-mibs +ALLOT-MIB
+  mibs +ALLOT-MIB
 
 **Install MIBs needed by ALLOT-MIB**
 sudo apt-get install snmp-mibs-downloader
