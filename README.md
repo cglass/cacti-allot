@@ -2,7 +2,7 @@ Introduction
 ============
 
 A collection of scripts and files used to set up Cacti to enable monitoring of an Allot NetEnforcer.  
-This is for my own personal so if you are interested in graphing Allot products in Cacti rather send me an email or read the Cacti documentation.
+This is for my own personal use, so if you are interested in graphing Allot products in Cacti, rather send me an email or read the Cacti documentation.
 
 Instructions
 ------------
